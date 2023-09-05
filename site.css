@@ -60,13 +60,14 @@ h1, h2, p {
     padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
     background-color: #fc0000; /* Cor de fundo do botão */
     color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remova a sublinhado padrão de links */
     border: 60px;/* Remova a borda do botão */
     border-radius: 5px; /* Borda arredondada */
     cursor: pointer; /* Mude o cursor ao passar o mouse sobre o botão */
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-top: -50px
+    margin-top: -50px;
 }
 .saiba-mais-button2 a {
     display: inline-block;
@@ -86,7 +87,7 @@ h1, h2, p {
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-    margin-top: -40px; /* Distância do topo */
+    margin-top: -50px; /* Distância do topo */
     right: 10px; /* Distância da direita */
 }
 .saiba-mais-button3 a {
@@ -100,7 +101,7 @@ h1, h2, p {
 }
 .saiba-mais-button4 {
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #fc0000;
     color: white;
     border: none; /* Remova a borda do botão */
@@ -108,10 +109,10 @@ h1, h2, p {
     cursor: pointer;
     position: absolute;
     margin-top: -18px; /* Distância do topo */
-    left: 375px; /* Distância da direita */
+    left: 360px; /* Distância da direita */
 }
 .saiba-mais-button4 a {
-    display: inline-block;
+    
     padding: 5px 20px;
     background-color: #ff0000; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
@@ -132,7 +133,7 @@ h1, h2, p {
     left: 990px; /* Distância da direita */
 }
 .saiba-mais-button5 a {
-    display: inline-block;
+  display: inline-block;
     padding: 5px 20px;
     background-color: #fc0000; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */

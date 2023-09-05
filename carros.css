@@ -1,0 +1,65 @@
+body {
+    background-image: url('images (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    font-family: Arial, sans-serif; 
+}
+
+.saiba-mais-buttonHome {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fc0000;
+    color: white;
+    border: 60px;
+    border-radius: 5px;
+    text-decoration: none; /* Remova a sublinhado padrão de links */
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center;
+}
+
+.content {
+    display: flex; /* Usa flexbox para posicionar os elementos lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+/* Estilo para a imagem */
+.ferrari-image {
+    margin-right: 20px; /* Margem à direita para separar a imagem do texto */
+}
+
+/* Estilo para o texto */
+.text {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o título e o parágrafo */
+.text h2 {
+    margin-top: -20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.text p {
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer {
+    text-align: center;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 70px;
+}
